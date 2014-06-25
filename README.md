@@ -1,18 +1,15 @@
 Homework 3
 ---
-###Scrollable view of Facebook notifications as third homework project for CodePath (http://guides.codepath.com/ios/Week-3-Homework)
+The homework this week is to make an interactive mock of the Paper navigation. Read the required and optional items below.
 
 * **How many hours did it take to complete?**
   * 5
 * **Which required and optional stories have you completed?**
-  * Create a scrollable view of Facebook notifications, such as the one above. Read the required and optional items below.
-      * :white_check_mark: Create a custom cell for the notification
-      * :white_large_square: Create a Notification model class with properties for profilePicUrl, text, iconUrl, timestamp
-      * :white_large_square: Set the left navigation bar icon to the search icon
-      * :white_large_square: Set the right navigation bar icon to the messages icon
-      * :white_large_square: Images can be loaded locally or from a URL. The quick references below demonstrate an easy way to load them from a URL
-      * :white_large_square: Optional: Implement a functioning tab bar that can be switched between news feed and notifications
-      * :white_large_square: Optional: Implement a scrollable version of news feed that contains your post from the Week 1 assignment
-* **GIF walkthrough of all required and optional stories (using LICEcap)**
+      * :white_check_mark:Dragging the headline should reveal the menu
+      * :white_check_mark:If you're dragging down, releasing the headline should animate the headline to the down position
+      * :white_check_mark:If you're dragging up, releasing the headline should animate the headline to the up position
+      * :white_check_mark:If you're dragging the headline up past the top, the friction should increase
+      * :white_large_square:Optional: Fade in different headlines every few seconds
+      * :white_large_square:Optional: Dragging on the scrollable feed of headlines should change the scale of the feed
 
 <img alt="Paper App" src=""/>
