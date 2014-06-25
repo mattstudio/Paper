@@ -447,6 +447,7 @@
 				C95173A819529DF300C44268 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C95173A919529DF300C44268 /* Build configuration list for PBXNativeTarget "PaperTests" */ = {
 			isa = XCConfigurationList;
@@ -455,6 +456,7 @@
 				C95173AB19529DF300C44268 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
