@@ -19,6 +19,8 @@
 		C951739919529DF300C44268 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C951738119529DF200C44268 /* UIKit.framework */; };
 		C95173A119529DF300C44268 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C951739F19529DF300C44268 /* InfoPlist.strings */; };
 		C95173A319529DF300C44268 /* PaperTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C95173A219529DF300C44268 /* PaperTests.m */; };
+		C95173AF19529E2700C44268 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C95173AD19529E2700C44268 /* MainViewController.m */; };
+		C95173B019529E2700C44268 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C95173AE19529E2700C44268 /* MainViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +50,9 @@
 		C951739E19529DF300C44268 /* PaperTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PaperTests-Info.plist"; sourceTree = "<group>"; };
 		C95173A019529DF300C44268 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C95173A219529DF300C44268 /* PaperTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PaperTests.m; sourceTree = "<group>"; };
+		C95173AC19529E2700C44268 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		C95173AD19529E2700C44268 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		C95173AE19529E2700C44268 /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +114,9 @@
 			children = (
 				C951738C19529DF200C44268 /* AppDelegate.h */,
 				C951738D19529DF200C44268 /* AppDelegate.m */,
+				C95173AC19529E2700C44268 /* MainViewController.h */,
+				C95173AD19529E2700C44268 /* MainViewController.m */,
+				C95173AE19529E2700C44268 /* MainViewController.xib */,
 				C951738F19529DF200C44268 /* Images.xcassets */,
 				C951738419529DF200C44268 /* Supporting Files */,
 			);
@@ -220,6 +228,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C951738819529DF200C44268 /* InfoPlist.strings in Resources */,
+				C95173B019529E2700C44268 /* MainViewController.xib in Resources */,
 				C951739019529DF200C44268 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -240,6 +249,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C951738E19529DF200C44268 /* AppDelegate.m in Sources */,
+				C95173AF19529E2700C44268 /* MainViewController.m in Sources */,
 				C951738A19529DF200C44268 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
